@@ -241,13 +241,13 @@ function HomeScreen({ hasSaved, onStart, onHowTo, onContinue, onDelete }: { hasS
     <div className="home-top"><Brand /><span className="version-pill">MVP · 1.0</span></div>
     <div className="hero-copy">
       <div className="eyebrow"><span className="eyebrow-dot" /> jogo social para uma noite inteira</div>
-      <h1>Sua missão é<br /><em>movimentar</em> a noite.</h1>
-      <p>Um celular. A sua roda. Dez missões para criar histórias com quem você ainda não conhece.</p>
+      <h1>Sua missão é<br /><em>se divertir</em> na liga da justiça.</h1>
+      <p>Um celular. A sua roda de amigos com dez missões para criar histórias com quem você ainda não conhece.</p>
     </div>
     <div className="hero-card">
       <div className="hero-orbit orbit-one" /><div className="hero-orbit orbit-two" />
       <div className="hero-card-icon"><Users size={25} /></div>
-      <div><strong>O rolê começa quando você puxa assunto.</strong><span>Desafios individuais, no ritmo de cada pessoa.</span></div>
+      <div><strong>O rolê começa quando você se passa e faz história com seus amigos:</strong><span>desafios individuais e em grupo, foguete que tem ré é só do Elon Musk.</span></div>
       <Sparkles className="hero-spark" size={18} />
     </div>
     <div className="home-actions">
