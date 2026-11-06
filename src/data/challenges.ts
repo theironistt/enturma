@@ -43,6 +43,7 @@ export const challenges: Challenge[] = [
   challenge('c-020', 'A opinião corajosa', 'Peça uma opinião divertida e respeitosa sobre uma tendência popular para alguém novo.', 'investigação social', 'ousada', socialModes),
   challenge('c-021', 'Repórter da noite', 'Colete de três pessoas novas uma palavra para descrever a noite e compare as respostas.', 'investigação social', 'ousada', socialModes),
   challenge('c-022', 'A pergunta profunda', 'Converse com alguém novo sobre um sonho que a pessoa gostaria de realizar, se ela quiser compartilhar.', 'investigação social', 'ousada', socialModes, true),
+  challenge('c-112', 'A dos signos', 'Descobrir o nome, signo e insta de uma mulher que ninguém da sua mesa conhece e voltar para contar ao grupo.', 'investigação social', 'ousada', socialModes, true),
 
   // Bar e bebidas
   challenge('c-023', 'Brinde de chegada', 'Faça um brinde com uma pessoa nova, usando água ou a bebida que cada um preferir.', 'bar e bebidas', 'facil', socialModes),
@@ -128,12 +129,12 @@ export const challenges: Challenge[] = [
   challenge('c-091', 'Pedido de música', 'Escreva um pedido de música e entregue a alguém novo para descobrir se a escolha combina com a noite.', 'bilhetes e mensagens', 'media', socialModes),
   challenge('c-092', 'Cartão de recomendação', 'Troque com alguém novo uma recomendação escrita de lugar para comer, ouvir música ou passear.', 'bilhetes e mensagens', 'facil', socialModes),
   challenge('c-093', 'Frase de impacto', 'Crie com alguém novo uma frase curta que poderia ser o slogan da noite.', 'bilhetes e mensagens', 'media', socialModes),
-  challenge('c-094', 'Convite no papel', 'Escreva um convite para um café ou passeio e entregue somente se houver interesse mútuo.', 'bilhetes e mensagens', 'ousada', boldModes),
-  challenge('c-095', 'Correio elegante', 'Entregue um bilhete romântico autorizado para alguém que demonstrou interesse em conversar com você.', 'bilhetes e mensagens', 'ousada', boldModes),
+  challenge('c-094', 'Convite no papel', 'Escreva um convite para um café ou passeio pela festa (kk) e entregue somente se houver interesse mútuo.', 'bilhetes e mensagens', 'ousada', boldModes),
+  challenge('c-095', 'Correio elegante', 'Entregue um bilhete romântico para alguém', 'bilhetes e mensagens', 'ousada', boldModes),
   challenge('c-096', 'Mensagem em três emojis', 'Converse com alguém novo usando três emojis escolhidos por vocês e descubra a história por trás deles.', 'bilhetes e mensagens', 'facil', socialModes),
   challenge('c-097', 'Recado para amanhã', 'Escreva com alguém novo uma mensagem para vocês lerem amanhã e troquem os contatos apenas se quiserem.', 'bilhetes e mensagens', 'ousada', boldModes),
   challenge('c-098', 'Carta de uma linha', 'Escreva uma linha sobre o melhor momento da noite e compartilhe com uma pessoa nova.', 'bilhetes e mensagens', 'media', socialModes),
-  challenge('c-099', 'Bilhete épico', 'Entregue um bilhete criativo e respeitoso para alguém novo e descubra se a pessoa quer continuar a conversa.', 'bilhetes e mensagens', 'epica', purpleMode, true),
+  challenge('c-099', 'Bilhete épico', 'Entregue um bilhete criativo para alguém novo e descubra se a pessoa quer continuar a conversa.', 'bilhetes e mensagens', 'epica', purpleMode, true),
 
   // Missões épicas
   challenge('c-100', 'Ponte entre grupos', 'Apresente duas pessoas do seu grupo a duas pessoas novas e crie uma conversa conjunta.', 'missões épicas', 'ousada', purpleMode, true),
@@ -143,10 +144,11 @@ export const challenges: Challenge[] = [
   challenge('c-104', 'Convite coletivo', 'Convide três pessoas novas para uma dança ou conversa em grupo, deixando a recusa sempre confortável.', 'missões épicas', 'epica', purpleMode, true),
   challenge('c-105', 'A recomendação cruzada', 'Peça a três pessoas novas recomendações diferentes e conecte as três em uma conversa.', 'missões épicas', 'ousada', purpleMode, true),
   challenge('c-106', 'Mural de elogios', 'Colete três elogios sinceros de pessoas novas e compartilhe um elogio com cada uma delas.', 'missões épicas', 'ousada', purpleMode, true),
-  challenge('c-107', 'Cena de filme', 'Crie com uma pessoa nova uma cena curta de filme e apresente para uma pequena roda, com autorização.', 'missões épicas', 'epica', purpleMode, true),
+  challenge('c-107', 'HORA DO BEIJO', 'BEIJE alguém na festa, qualquer um menos amigos', 'missões épicas', 'epica', purpleMode, true),
   challenge('c-108', 'Conexão real', 'Tenha uma conversa de quinze minutos com alguém novo e descubra uma experiência que os dois gostariam de viver.', 'missões épicas', 'epica', purpleMode, true),
   challenge('c-109', 'A noite em uma foto', 'Crie uma foto autorizada que represente a noite reunindo pessoas de grupos diferentes.', 'missões épicas', 'epica', purpleMode, true),
-  challenge('c-110', 'Final roxo', 'Se houver interesse mútuo, convide alguém novo para uma dança, troque um contato e combine um próximo rolê.', 'missões épicas', 'epica', purpleMode, true)
+  challenge('c-110', 'Final roxo', 'Se houver interesse mútuo, convide alguém novo para uma dança, troque um contato e combine um próximo rolê.', 'missões épicas', 'epica', purpleMode, true),
+  challenge('c-113', 'Olhadinhas', 'Encontre alguém que você se interessou, espere seus olhares se cruzarem, e fixe o olhar nessa pessoa por pelo menos 8 segundos', 'missões épicas', 'epica', purpleMode, true)
 ];
 
 export const challengeCount = challenges.length;
